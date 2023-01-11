@@ -1,0 +1,111 @@
+body {
+  background-color: black;
+}
+
+.container {
+  color: white;
+  max-width: none;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.container#header {
+  height: 21vh;
+  background: url("../images/header.jpeg") no-repeat;
+  background-size: contain;
+}
+
+.container#search .input-group {
+  margin-bottom: 10px;
+}
+
+.container#search .input-group * {
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
+
+.albion-form {
+  background: #1a1d24;
+  border-color: #3c3f43;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+}
+
+.albion-form#players {
+  width: 60px;
+}
+
+.btn-albion {
+  color: white;
+  background-color: #ec552c;
+  transition: 0.3s;
+}
+
+.btn-albion:hover {
+  background-color: #531405;
+}
+
+.dataTables_filter input[type="search"] {
+  background: #1a1d24;
+  border-color: #3c3f43;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+}
+
+.dataTables_length select[name="battleTable_length"], .dataTables_length select[name="attendanceTable_length"] {
+  background: #1a1d24;
+  border-color: #3c3f43;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+}
+
+.dataTables_wrapper .dt-button {
+  color: white;
+  background-color: #ec552c;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.dataTables_wrapper .dt-button:hover {
+  background-color: #531405;
+  background: #531405;
+}
+
+.dataTables_wrapper .dt-buttons {
+  margin-left: 5px;
+}
+
+.dataTables_paginate .paginate_button[aria-controls="battleTable"], .dataTables_paginate .paginate_button[aria-controls="attendanceTable"] {
+  color: white;
+  background-color: #ec552c;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.dataTables_paginate .paginate_button[aria-controls="battleTable"]:hover, .dataTables_paginate .paginate_button[aria-controls="attendanceTable"]:hover {
+  background-color: #531405;
+  background: #531405;
+}
+
+table.dataTable thead th, table.dataTable thead td, table.dataTable tbody td {
+  border-bottom: 1px solid #24272e;
+}
+
+/*
+Hover table row highlight
+*/
+table.dataTable#attendanceTable tbody tr:hover {
+  background-color: #ec552c;
+  cursor: pointer;
+}
+ 
+table.dataTable#attendanceTable tbody tr:hover > .sorting_1 {
+  color: #ec552c;
+  cursor:pointer;
+}

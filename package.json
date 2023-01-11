@@ -1,0 +1,26 @@
+{
+  "name": "AlbionOnlineZvZTool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "packager": "electron-packager ./ --platform=win32"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^22.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "echarts": "^5.4.1",
+    "electron-packager": "^17.1.1",
+    "install": "^0.13.0",
+    "jquery": "^3.6.3",
+    "moment": "^2.29.4",
+    "npm": "^9.2.0"
+  }
+}
